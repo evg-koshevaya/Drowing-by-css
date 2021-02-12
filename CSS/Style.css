@@ -1,0 +1,81 @@
+
+
+
+.cat {
+	position: fixed;
+margin: auto;
+    display: block;
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+}
+
+.cat-top {
+
+	top: 10%;
+	left:35%;
+	border-radius: 100%;
+	background: #000;
+	width: 20%;
+	height: 20%;
+}
+
+  .cat-bottom {
+    margin-top: -2%;
+    margin-left: 29%;
+    background: black;
+    width: 33%;
+    height: 35%;
+    border-radius: 70% 70% 100% 100%;
+}
+
+.right-hand {
+	top: 0%;
+    left: -5%;
+    background: black;
+    width: 50%;
+    height: 80%;
+    border-radius: 30% 30% 300% 30%;
+    transform: rotate(90deg);
+    z-index: -1;
+  
+}
+
+.left-hand {
+    top: 0%;
+    left: 55%;
+    background: black;
+    width: 50%;
+    height: 80%;
+    border-radius: 30% 30% 30% 300%;
+    transform: rotate(-90deg);
+    z-index: -1;
+  }
+
+ .right-eye {
+ 	margin-top: 0%;
+ 	margin-left: 25%;
+ 	background: white;
+ 	width: 13%;
+ 	height: 15%;
+ 	border-radius: 50%;
+ }
+
+
+.right-ear {
+
+	top: 0%;
+    left: 100%;
+    background: black;
+    width:40%;
+    height: 40%;
+    border-radius: 30% 30% 30% 300%;
+   transform: rotate(90deg);
+    z-index: -1;
+}
+  .cat * {
+    position: absolute;
+  }
+  body {
+	background: white;
+}
